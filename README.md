@@ -10,3 +10,7 @@ GSC-LT is a collection of tools for working with the .gsc language for Call of D
     - Turns tokens into an AST
 - Generator
     - Turns an AST into raw GSC
+
+## Usage
+
+each module can be used individually either by running the script `./modules/tokenizer.ts input.gsc output.json` or by importing the module into a typescript file `import Tokenizer from './modules/tokenizer.ts'`.
