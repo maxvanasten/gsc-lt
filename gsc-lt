@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
 deno run --allow-read --allow-write ./modules/tokenizer.ts ./input/0_all.gsc ./output/tokens.json
+
+deno run --allow-read --allow-write ./modules/parser.ts ./output/tokens.json ./output/ast.json
